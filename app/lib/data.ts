@@ -74,3 +74,16 @@ export async function fetchProductFamilyColor() {
         throw new Error('Failed to fetch family colors data.');
     }
 }
+
+export async function fetchSizesById(id: string) {
+    try {
+        const data = await sql<Product>`
+            SELECT size FROM products WHERE id = ${id};
+        `;
+
+        return data;
+    } catch (error) {
+        console.error('Database Error:', error);
+        throw new Error('Failed to fetch sizes.');
+    }
+}

@@ -133,6 +133,8 @@ function Datatable({ items, columns, type }) {
 
         const updatedElements = elements.filter(element => !selectedIds.includes(parseInt(element.id)));
         setElements(updatedElements);
+        setSeleccionados(0);
+        setDisabled(true);
     }
 
     const handleSetLimit = () => {
@@ -255,7 +257,7 @@ function Datatable({ items, columns, type }) {
                                 </td>
                                 <ContentLarge element={element} type={type}/>
                                 <td>
-                                    <BtnActions elements={elements} setElements={setElements} className="datatable-btn-actions" id={element.id}/>
+                                    <BtnActions setDisabled={setDisabled} setSeleccionados={setSeleccionados} elements={elements} setElements={setElements} className="datatable-btn-actions" id={element.id}/>
                                 </td>
                             </tr>               
                         ))}
@@ -286,7 +288,7 @@ function Datatable({ items, columns, type }) {
                                             {cardSize <= 455 &&
                                                 <div className="properties-actions_responsive-mobile">
                                                     <FormCheck name={element.id} checked={ element?.isChecked || false } onChange={handleChange}/>
-                                                    <BtnActions elements={elements} setElements={setElements} className="datatable-btn-actions" id={element.id}/>
+                                                    <BtnActions setDisabled={setDisabled} setSeleccionados={setSeleccionados} elements={elements} setElements={setElements} className="datatable-btn-actions" id={element.id}/>
                                                 </div>
                                             }
                                             <ContentSmall cardSize={cardSize} element={element} type={type}/>
@@ -295,12 +297,12 @@ function Datatable({ items, columns, type }) {
                                 </td>
                                 { cardSize > 660 ? (
                                     <td className="datatable-actions_responsive">
-                                        <BtnActions elements={elements} setElements={setElements} className="datatable-btn-actions" id={element.id}/>
+                                        <BtnActions setDisabled={setDisabled} setSeleccionados={setSeleccionados} elements={elements} setElements={setElements} className="datatable-btn-actions" id={element.id}/>
                                     </td>
                                 ) : (
                                     cardSize > 455 &&
                                         <td className="datatable-actions_responsive-mobile">
-                                            <BtnActions elements={elements} setElements={setElements} className="datatable-btn-actions" id={element.id}/>
+                                            <BtnActions setDisabled={setDisabled} setSeleccionados={setSeleccionados} elements={elements} setElements={setElements} className="datatable-btn-actions" id={element.id}/>
                                         </td>
                                 )}
                             </tr>               

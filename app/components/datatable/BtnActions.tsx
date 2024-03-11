@@ -3,12 +3,14 @@ import Link from "@/node_modules/next/link";
 import Button from "@/node_modules/react-bootstrap/esm/Button";
 import { deleteProduct } from "@/app/lib/actions";
 
-function BtnActions({ className, id, elements, setElements }) {
+function BtnActions({ className, id, elements, setElements, setSeleccionados, setDisabled }) {
 
     const handleDelete = async () => {
         await deleteProduct(id);
         const updatedElements = elements.filter(element => element.id !== id);
         setElements(updatedElements);
+        setSeleccionados(0);
+        setDisabled(true);
     }
 
     return (
