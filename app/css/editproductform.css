@@ -1,0 +1,349 @@
+/* FORM */
+
+#btns-edit-add {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 80px;
+    padding-right: 0px;
+}
+
+#btns-edit-add button.card-button {
+    margin-left: 10px !important;
+}
+
+#edit-product_form {
+    background-color: white;
+    padding-bottom: 20px;
+    margin-top: 45px;
+}
+
+#edit-product_form-extra-big_aux, #edit-product_form-big_aux, #edit-product_form-medium_aux-1, #edit-product_form-small_aux-1, #edit-product_form-extrasmall_aux-1 {
+    display: flex;
+}
+
+.form_bottom-vertical-separation {
+    margin-bottom: 20px;
+}
+
+.form_bottom-vertical-separation_medium {
+    margin-bottom: 5px;
+}
+
+.form_top-vertical-separation {
+    margin-top: 18px;
+}
+
+#block_properties {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+/*************************************************/
+#add-product_form-standar_aux {
+    display: flex;
+}
+
+.add-product_form-standar_section-horizontal {
+    width: 28%;
+}
+
+#add-product_form-standar_dropzone {
+    padding: 20px 70px 0px 70px;
+    display: flex;
+    width: 100%;
+}
+
+.add-product_form-small_section-horizontal {
+    width: 10%;
+}
+
+#add-product_form-small_dropzone {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+}
+
+.add-product_form-extrasmall_section-horizontal {
+    width: 5%;
+}
+
+#add-product_form-standar_section-main {
+    width: 100%;
+}
+
+
+/***************************************************/
+
+/* EXTRA BIG - EDIT FORM */
+
+#edit-product_form-extra-big_section-1 {
+    padding: 0px 20px 0px 10px;
+    width: 21%;
+    display: table;
+}
+
+#edit-product_form-extra-big_section-2 {
+    width: 34%;
+    display: table;
+    margin-left: 20px;
+    margin-right: 78px;
+}
+
+#edit-product_form-extra-big_section-3 {
+    width: 45%;
+    padding: 0px 20px 0px 30px;
+}
+
+#edit-product_form-extra-big_dropzone {
+    padding: 30px 20px 0px 10px;
+    display: flex;
+    width: 100%;
+}
+
+
+/* BIG - EDIT FORM */
+
+#edit-product_form-big_section-1 {
+    width: 40%;
+    display: table;
+    margin-left: 20px;
+    margin-right: 78px;
+}
+
+#edit-product_form-big_section-2 {
+    width: 60%;
+    display: table;
+    padding: 0px 20px 0px 30px;
+}
+
+#edit-product_form-big_dropzone {
+    padding: 30px 20px 0px 20px;
+    display: flex;
+    width: 100%;
+}
+
+
+/* MEDIUM - EDIT FORM */
+
+#edit-product_form-medium_aux-2 {
+    padding: 0px 30px 0px 20px;
+}
+
+#edit-product_form-medium_section-1 {
+    width: 30%;
+    display: table;
+    padding: 0px 30px 0px 20px;
+}
+
+#edit-product_form-medium_section-2 {
+    width: 40%;
+    display: table;
+    margin-left: 20px;
+    margin-right: 78px;
+}
+
+#edit-product_form-medium_section-3 {
+    width: 30%;
+    display: table;
+    padding: 0px 20px 0px 30px;
+}
+
+#edit-product_form-medium_dropzone {
+    padding: 7px 20px 0px 20px;
+    display: flex;
+    width: 100%;
+}
+
+
+/* SMALL - EDIT FORM */
+
+#edit-product_form-small_aux-2 {
+    padding: 3px 20px 0px 20px;
+}
+
+#edit-product_form-small_section-1 {
+    width: 45%;
+    display: table;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#edit-product_form-small_section-2 {
+    width: 55%;
+    display: table;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#edit-product_form-small_aux-1 .carousel .thumbs-wrapper, #edit-product_form-extrasmall_aux-1 .carousel .thumbs-wrapper, #edit-product_form-mobile_aux-1 .carousel .thumbs-wrapper  {
+    margin: 20px;
+    overflow: hidden;
+    display: none !important;
+}
+
+#edit-product_form-small_dropzone {
+    padding: 8px 20px 0px 20px;
+    display: flex;
+    width: 100%;
+}
+
+
+/* EXTRASMALL & MOBILE - EDIT FORM */
+
+#edit-product_form-extraextrasmall_section, #edit-product_form-mobile_section {
+    margin-bottom: 30px;
+}
+
+#edit-product_form-extraextrasmall_dropzone {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+}
+
+#edit-product_form-mobile_dropzone {
+    padding: 32px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+}
+
+
+
+/* PROPERTIES */
+
+.product-description-block .edit-form_label, .product-description-line .edit-form_label {
+    margin-bottom: 6px !important;
+}
+
+.product-description-block {
+    width: 100%;
+}
+
+#product-code {
+    display: grid;
+}
+
+#product-category {
+    font-size: 13px !important;
+}
+
+#product-category .react-selector__control {
+    width: 100% !important;
+    font-size: 13px !important;
+}
+
+#product_size-category {
+    margin-top: 2px;
+    margin-left: -4px;
+    padding-right: 10px;
+}
+
+.product_size-category_option {
+    padding: 5px 10px 12px 10px;
+    margin: 4px;
+    font-size: 12px;
+    border: 1px solid black;
+    min-width: 105px;
+}
+
+.product_size-category_option_size {
+    display: flex;
+}
+
+.option_size-check {
+    padding-top: 3px;
+}
+
+.option_size-label {
+    font-size: 12px !important;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+#product_color-family {
+    display: flex;
+    margin-left: -6px;
+    margin-bottom: 2px;
+}
+
+.product_color-family_option {
+    display: table;
+    width: 55px;
+    height: 65px;
+    margin-right: 3px;
+    margin-top: 5px;
+    padding-top: 14px;
+    padding: 0px;
+}
+
+.product_color-family_option-aux {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.color-family_option_check[type=radio] { /****/
+    border-radius: 0px !important;
+    margin: 0px !important;
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 17px !important;
+}
+
+.color-family_option_check:checked[type=radio] {
+    --bs-form-check-bg-image: none !important;
+}
+
+.color-family_option_check:hover[type=radio] {
+    cursor: pointer;
+}
+
+.color-family_option_name {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    height: 30px;
+}
+
+
+
+/* Help product code icon */
+
+#product-code_help {
+    position: absolute;
+    margin-left: 97px;
+    margin-top: 6px;
+    display: flex;
+}
+
+#product-code_help:hover {
+    cursor: help;
+}
+
+.bs-tooltip-end .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow {
+    display: none !important;
+}
+
+.tooltip.show {
+    opacity: 1;
+}
+
+.tooltip-inner {
+    max-width: 390px;
+    padding: 9px;
+    color: #333371;
+    font-size: 11px;
+    text-align: center;
+    background-color: #e1f1ff;
+    border: 1px solid #b5c9da;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+

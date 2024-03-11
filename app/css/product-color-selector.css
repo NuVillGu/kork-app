@@ -1,0 +1,98 @@
+#color-selector {
+    margin-left: 1px;
+    padding-right: 10px;
+}
+
+#color-selector_data {
+    display: flex !important;
+    margin-top: 5px;
+}
+
+#color-selector_data_color {
+    border: 1px solid rgb(71, 71, 71);
+    width: 21px;
+    height: 20px;
+    margin-top: 1px;
+}
+
+#color-selector_data_color:hover {
+    cursor: pointer;
+}
+
+#color-selector_data_box-input {
+    width: 100%;
+}
+
+#color-selector_data_box-input .input-line {
+    margin-top: -3px;
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+
+
+/* Hex Color Picker */
+
+.color-selector_viewer_close {
+    display: none !important;
+}
+
+.color-selector_viewer_open {
+    display: flex !important;
+}
+
+.react-colorful {
+    width: 100% !important;
+    height: 100% !important;
+    border-top: none;
+    margin-top: 15px;
+    padding: 10px 25px 15px 28px;
+}
+
+.react-colorful__saturation {
+    border-radius: 0px !important;
+    height: 95px;
+}
+  
+.react-colorful__saturation .react-colorful__pointer {
+    width: 14px;
+    height: 14px;
+    transform: translate(-50%,-10%);
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: 2px solid rgb(228, 228, 228);
+}
+
+.react-colorful__saturation .react-colorful__interactive:focus .react-colorful__pointer {
+    transform: translate(-50%,-10%);
+}
+
+.react-colorful__saturation .react-colorful__interactive:hover .react-colorful__pointer, .react-colorful__saturation .react-colorful__interactive:focus .react-colorful__pointer {
+    cursor: pointer;
+}
+  
+.react-colorful__hue {
+    margin-top: 15px;
+    height: 10px !important;
+    border-radius: 0px !important;
+}
+  
+.react-colorful__hue .react-colorful__pointer {
+    width: 14px !important;
+    height: 14px !important;
+    background-color: white !important;
+    border: 1px solid #000000 !important;
+    box-shadow: none !important;
+}
+  
+.react-colorful__hue .react-colorful__pointer-fill {
+    background-color: transparent !important;
+}
+  
+.react-colorful__hue .react-colorful__interactive:focus .react-colorful__pointer {
+    transform: translate(-50%,-50%) !important;
+}
+  
+.react-colorful__hue .react-colorful__interactive:hover .react-colorful__pointer, .react-colorful__hue .react-colorful__interactive:focus .react-colorful__pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.dropzone-container {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#estandar-border {
+    border: 1px dashed rgb(0, 0, 0);
+}
+
+#danger-border {
+    border: 1px dashed #e40000;
+    background-color: #fff0f0;
+}
+
+.dropzone-text {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+.dropzone-text:hover {
+    cursor: pointer;
+    color: rgb(88, 88, 88);
+}
+
+.dropzone-text:active {
+    color: rgb(116, 116, 116);
+}
+
+.dropzone-image-container {
+    width: 255px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.dropzone-image {
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    max-width: 180px;
+}
+
+.dropzone-image-name {
+    padding: 15px 10px 18px 10px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+#container-todas-imagenes {
+    justify-content: center;
+    padding: 25px 5px 25px 5px;
+}
+
+#dropzone-x-div {
+    width: 100%;
+    text-align: right;
+}
+
+.dropzone-deletebutton-ind {
+    border-radius: 0px;
+    border-right: none;
+    border-top: none;
+}
+
+.dropzone-deletebutton-all {
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.dropzone-deletebutton-ind, .dropzone-deletebutton-all {
+    font-size: 11px;
+    --bs-btn-hover-bg: rgb(68, 68, 68);
+    --bs-btn-hover-border-color: rgb(39, 39, 39);
+    --bs-btn-active-bg: rgb(17, 17, 17);
+    --bs-btn-active-border-color: black;
+    --bs-btn-bg: rgb(255, 255, 255);
+    --bs-btn-border-color: black;
+    --bs-btn-color: black;
+    --bs-btn-hover-color: white;
+    --bs-btn-active-color: white;
+}
+
+.dropzone-alert {
+    border-radius: 0px;
+    text-align: center;
+    font-size: 11px;
+    color: #e40000;
+    margin-top: 20px;
+}
+
+#estandar-alert {
+    display: none;
+}
+
+#danger-alert {
+    display: block;
+}

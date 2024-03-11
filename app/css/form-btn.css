@@ -1,0 +1,97 @@
+.form-check-input {
+    border-color: rgb(0, 0, 0) !important;
+}
+
+.form-check-input:checked {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+.form-check-input:checked[type=checkbox] {
+	--bs-form-check-bg-image : url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27%3e%3cpath fill=%27none%27 stroke=%27%23000%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27m6 10 3 3 6-6%27/%3e%3c/svg%3e");
+}
+
+.form-check-input:checked[type=radio] {
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%272%27 fill=%27%23000%27/%3e%3c/svg%3e");
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+    border-color: rgb(0, 0, 0);
+}
+
+.form-check-input[type=radio] {
+    margin-right: 5px;
+}
+
+/* React Select */
+.css-13cymwt-control, .css-t3ipsp-control {
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0px !important;
+    background-color: transparent !important;
+    min-height: 0px !important;
+    display: inline-flex !important;
+    width: 50px !important;
+    padding-left: 2px !important;
+    padding-right: 5px !important;
+    box-shadow: none !important;
+}
+
+.css-1fdsijx-ValueContainer {
+    display: flex !important;
+    padding: 0px !important;
+}
+
+.css-tj5bde-Svg {
+    fill: #313131 !important;
+    width: 12px;
+}
+
+.css-1dimb5e-singleValue {
+    margin-bottom: -5px !important;
+}
+
+.css-1u9des2-indicatorSeparator {
+    display: none !important;
+}
+
+.css-15lsz6c-indicatorContainer, .css-1xc3v61-indicatorContainer {
+    margin-bottom: -3px !important;
+    padding: 0px !important;
+}
+
+.css-qbdosj-Input, .css-166bipr-Input {
+    display: grid !important;
+    padding-bottom: 0px !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.css-166bipr-Input input {
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.react-selector__menu {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    border: 1px solid #dddddd !important;
+    text-align: center !important;
+}
+
+.react-selector__option {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    margin-bottom: 3px !important;
+    border: 1px solid transparent;
+    cursor: pointer !important;
+}
+
+.react-selector__option--is-focused {
+    border: 1px solid black !important;
+    background-color: transparent !important;
+}
+
+.react-selector__option--is-selected {
+    background-color: black !important;
+}

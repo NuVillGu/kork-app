@@ -1,0 +1,551 @@
+.datatable-card {
+    margin-top: 45px;
+}
+
+#card-button_datatable_filtering {
+    margin-right: 10px;
+}
+  
+#datatable-search-input {
+    width: 220px;
+    border: 1px solid black !important;
+    height: 29px !important;
+}
+
+#button-filter span {
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+.rows-selected {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.rows-selected span {
+    font-weight: bold;
+}
+
+#rows-selected_true {
+    visibility: hidden;
+}
+
+#button-filter.btn {
+    font-size: 13px !important;
+    border-radius: 0px !important;
+}
+
+#info-sup {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+#card-list_actions {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: right;
+}
+
+#card-list_actions_filtering_search {
+    display: flex;
+}
+
+#card-list_actions_filtering_search span {
+    font-size: 11px;
+    padding-top: 6px;
+    padding-right: 6px;
+}
+
+
+/*#####################################
+#      TABLE GENERAL PROPERTIES       #
+######################################*/
+
+.react-bootstrap-table table {
+    table-layout: auto !important;
+}
+
+.table {
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.table > :not(caption) > * > * {
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td, th { 
+    height: 45px;
+}
+
+th {
+    font-weight: 400;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+tbody tr:hover {
+    background-color: #3188eb !important;
+    --bs-table-color: white !important;
+}
+
+tbody tr:hover svg g {
+    fill: white;
+}
+
+.tr-checked_true {
+    background-color: #e2f3ff !important;
+    border-bottom: 1px solid rgb(231, 231, 231) !important;
+}
+
+.datatable-btn-actions { 
+    display: flex;
+    justify-content: center;
+}
+
+.btn-action {
+    border-radius: 0px !important;
+    font-size: 13px;
+    background-color: transparent;
+    padding: 2px;
+    color: black;
+    border: 1px solid transparent;
+    width: 27px !important;
+    height: 28px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.btn-action:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-action:active {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn-action.btn-remove {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+}
+
+.btn-action.btn-view:hover svg g { fill: rgb(118, 205, 255); }
+.btn-action.btn-view:active svg g { fill: rgb(0, 49, 211); }
+
+.btn-action.btn-edit:hover svg g { fill: rgb(92, 255, 146); }
+.btn-action.btn-edit:active svg g { fill: rgb(0, 233, 78); }
+
+.btn-action.btn-remove:hover svg g { fill: rgb(255, 25, 25); }
+.btn-action.btn-remove:active svg g { fill: rgb(172, 0, 0); }
+
+
+
+/******* NO RESPONSIVE *******/
+
+.datatable_no-responsive tbody tr {
+    border-color: #f1f1f1;
+}
+
+.datatable_no-responsive.table > :not(caption) > * > * {
+    padding: 8px 15px 8px 15px !important;
+}
+
+.datatable_no-responsive thead {
+    border-bottom: 1px solid rgb(0, 0, 0) !important;
+    vertical-align: middle !important;
+}
+
+.even-row {
+    background-color: #fcfcfc;
+}
+  
+.odd-row {
+    background-color: #ffffff;
+}
+
+.th-sortable {
+    font-weight: 500;
+}
+
+.sortable-box {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-sort {
+    display: flex;
+    align-items: center;
+}
+
+.th-sortable:hover {
+    cursor: pointer;
+}
+
+/******* RESPONSIVE *******/
+
+.datatable_responsive thead {
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.datatable_responsive tr {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.datatable_responsive.table > :not(caption) > * > * {
+    padding: 15px !important;
+}
+
+.datatable-element-group_responsive {
+    display: flex;
+}
+
+.datatable-element_responsive {
+    display: flex;
+    width: 100%;
+    margin: 5px !important;
+    border-radius: 5px;
+    border: 1px solid rgb(231 231 231);
+    background-color: rgb(251 251 251);
+    padding: 6px 12px;
+}
+
+tbody tr:hover .datatable-element_responsive {
+    background-color: #3188eb !important;
+    border: 1px solid rgb(255 255 255);
+}
+
+.tr-checked_true .datatable-element_responsive {
+    background-color: #e2f3ff;
+    border: 1px solid rgb(198 198 198);
+}
+
+.datatable-properties_responsive {
+    display: flex;
+}
+
+.properties-data_responsive {
+    width: 100%;
+}
+
+.properties-actions_responsive-mobile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    margin-top: 3px;
+}
+
+.datatable-properties_responsive-mobile .datatable-element_responsive {
+    width: auto !important;
+    display: grid;
+    justify-content: center;
+}
+
+.datatable-properties_responsive-mobile .datatable-element-group_responsive .datatable-element_responsive {
+    width: 100% !important;
+}
+
+.datatable-properties_responsive-mobile .datatable-element-label_responsive {
+    margin-right: 0px;
+}
+
+.properties-actions_responsive-mobile .form-check-input {
+    margin-top: 8px;
+    margin-right: 11px;
+}
+
+.datatable-element-label_responsive {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.datatable-actions_responsive-mobile .datatable-btn-actions { 
+    display: grid;
+}
+
+.datatable-actions_responsive, .datatable-actions_responsive-mobile {
+    width: 0px !important;
+}
+
+.datatable-check_responsive {
+    width: 0px;
+}
+
+
+
+/*--------------------*/
+#res-actions-1 {
+    display: flex;
+    font-size: 13px;
+    padding: 9px;
+}
+
+#res-actions-1 .rows-selected {
+    width: 100%;
+    margin: 0px;
+}
+
+#res-actions-1 #action-ultra-res-pag {
+    width: 100%;
+    text-align: right;
+}
+
+#ultra-res-pag {
+    margin-top: 20px;
+}
+
+.set-limit-ultra-res-actions {
+    font-size: 13px;
+    justify-content: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 40px !important;
+}
+
+#x-1 {
+    text-align: center;
+}
+
+#x-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+#x-2 #set-limit-input {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -2px;
+}
+
+#res-mob {
+    margin-bottom: 65px;
+}
+
+#res-mob-ultra {
+    margin-bottom: 75px;
+}
+
+#res-mob #error-limit, #res-mob-ultra #error-limit {
+    margin-top: 18px;
+    display: none;
+    font-size: 11px;
+    margin-left: 0px;
+    text-align: center;
+    justify-content: center;
+    color: #e40000;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+}
+
+.datatable_responsive .tr-checked_true {
+    border-bottom: 1px solid rgb(0 0 0) !important;
+}
+
+#res-1 {
+    display: flex !important;
+    margin-bottom: 15px;
+    justify-content: right;
+}
+
+#res-1 button.card-button {
+    width: 33.3%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+#res-1-ultra {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 15px;
+}
+
+#res-1-ultra button.card-button {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#res-2 #card-list_actions_filtering_search {
+    display: block;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#res-2 #datatable-search-input {
+    width: 100%;
+}
+
+#res-actions-1-mob .rows-selected {
+    padding-top: 0px !important;
+    padding-bottom: 9px;
+}
+
+#res-actions-1-mob #rows-selected_true {
+    display: none;
+}
+
+/*#####################################
+#              PAGINATION             #
+######################################*/
+
+#container-pagination {
+    font-size: 13px;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#container-pagination-set-BIG {
+    width: 30%;
+    text-align: right;
+}
+
+#container-pagination-set-SMALL {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#container-pagination-details {
+    width: 70%;
+    padding-top: 50px;
+}
+
+#info-pag {
+    display: flex;
+}
+
+#container-detail-limit {
+    margin-top: 20px;
+}
+
+#set-button-pag {
+    margin-top: -6px;
+}
+
+#set-limit {
+    margin-top: 10px;
+    display: flex;
+}
+
+#error-limit {
+    display: none;
+    margin-top: -9px;
+    margin-left: 10px;
+    font-size: 11px;
+    color: #e40000;
+    border: 1px solid #ffdfdf;
+    background-color: #fff0f0;
+    padding: 9px 10px 9px 10px;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin-top: 0px;
+}
+
+.page-item {
+    display: inline;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.page-item:last-child .page-link {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+    z-index: 2;
+    color: #000;
+    font-weight: 600;
+    cursor: default;
+    background-color: #ffffff !important;
+    border-color: #000000;
+}
+
+.page-item.disabled .page-link, .page-item.disabled .page-link:focus, .page-item.disabled .page-link:hover {
+    color: #818a91;
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+#button-load-small {
+    padding: 5px 15px 5px 15px;
+}
+
+#button-load-small button.card-button {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+button.card-button.disabled {
+    display: none;
+}
+
+.page-link {
+    position: relative;
+    float: left;
+    padding: 0px 6px 0px 6px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 6px !important;
+    color: #000000;
+    text-decoration: none;
+    border: none !important;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: transparent !important;
+}
+
+.page-link:focus, .page-link:hover {
+    color: #585858;
+    background-color: #ececec !important;
+    border-color: #cacaca;
+}
+
+#pag-selec {
+    display: flex;
+    margin-left: 5px;
+}
+
+
+#separator-info {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#page-selector {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -6px;
+}
+
+.selection-input-4 {
+    background-color: black !important;
+}
+
+#card-button_pagination-set {
+    margin-left: 8px;
+}
+
+#set-limit-input {
+    width: 40px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+

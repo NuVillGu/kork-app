@@ -1,0 +1,142 @@
+/*Images*/
+.properties_image-product-aux_responsive {
+    text-align: center;
+    display: table;
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 14px;
+}
+
+.properties_image-product_responsive {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.datatable_responsive .image-product_responsive {
+    max-width: 140px;
+    border-radius: 5px;
+    border: 1px solid rgb(231 231 231);
+}
+
+.datatable_no-responsive .img-product_no-responsive {
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 5px;
+}
+
+.datatable-properties_responsive-mobile .properties_image-product_responsive {
+	display: block;
+	margin-bottom: 5px;
+}
+
+
+/*Sizes*/
+.properties_size_responsive, .properties_size_no-responsive  {
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 31px;
+    display: flex;
+    justify-content: center;
+}
+
+.properties_size_no-responsive  {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 24px;
+    padding-top: 3px;
+}
+
+.properties_size_responsive {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    height: 18px;
+    padding-top: 0px;
+}
+
+.datatable-size-row_no-responsive {
+    display: flex;
+    justify-content: center;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.datatable-size-row_responsive-mobile {
+    justify-content: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.datatable_responsive .datatable-size-row_responsive-mobile .size_responsive {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    height: 20px !important;
+    padding-top: 1px !important;
+    border: 1px solid black;
+}
+
+.datatable-size-label_responsive {
+    height: 18px;
+    margin-top: 1px;
+}
+
+.size-agotada {
+    border: 1px solid rgb(214, 214, 214) !important;
+    color: rgb(214, 214, 214) !important;
+}
+
+.datatable-size_responsive-mobile {
+    margin-top: 10px !important;
+}
+
+
+/* Color */
+.properties_color_no-responsive, .properties_color_responsive, .properties_color_responsive-mobile {
+    border: 1px solid rgb(0 0 0);
+    border-radius: 20px;
+}
+
+.properties_color_no-responsive {
+    height: 22px;
+    width: 22px;
+}
+
+.properties_color_responsive, .properties_color_responsive-mobile {
+    height: 15px;
+    width: 15px;
+    margin-top: 1px;
+}
+
+.properties_color_responsive-mobile {
+    margin-left: 12px !important;
+}
+
+.datatable-color_no-responsive {
+    justify-content: center;
+    display: flex;
+}
+
+
+/* Price */
+.properties_price_responsive {
+    display: flex;
+}
+
+.properties_standar-price_responsive {
+    margin-right: 10px;
+}
+
+.properties_standar-price_responsive, .properties_standar-price_no-responsive {
+    text-decoration: line-through;
+}
+
+.properties_onsale-price_responsive, .properties_onsale-price_no-responsive {
+    color: rgb(255, 0, 0);
+}
+
+
+.img-product_responsive {
+    border: 1px solid rgb(231 231 231) !important;
+    border-radius: 5px !important;
+}
